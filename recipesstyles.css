@@ -1,0 +1,51 @@
+.macncheese {
+    background-color: rgb(160, 160, 24);
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+}
+
+ul,
+ol {
+    text-decoration: wavy;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.homepage {
+    background: rgb(36, 79, 94);
+}
+
+li>a {
+    border: 1px dashed lightblue;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+li>a:hover {
+    border-color: yellow;
+    color: peachpuff;
+}
+
+.steak {
+    background-color: rgba(31, 21, 78, 0.507);
+}
+
+
+/* background for tres leches site */
+
+.tresleches {
+    background-color: rgb(61, 61, 15);
+}
