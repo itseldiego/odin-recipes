@@ -1,2 +1,2 @@
-# Repos2
+# odin-recipes
 constructing a recipe site
