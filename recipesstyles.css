@@ -12,8 +12,8 @@ h4 {
 
 ul,
 ol {
-    text-decoration: wavy;
-    text-align: center;
+    display: table;
+    margin: 0 auto;
 }
 
 img {
