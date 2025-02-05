@@ -1,2 +1,4 @@
 # odin-recipes
-create basic recipes with html learned so far
+this project will demonstrate my html skills 
+by creating a recipe list of 5 individual recipes
+
