@@ -1,110 +1,107 @@
 
-.homepage{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-/* targeting titles of each page */
-.title{
-    border: 2px solid black;
+.homepage {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+  /* targeting titles of each page */
+  .title {
+    border:2px solid black;
     padding:5px;
-    margin: 5px;
-    background-color: #333;
-    color: #ff5722;
-
-}
-
-.title.alfredo{
-    font-family: 'Pacifico', cursive; /* make title noodle like */
-    color: #cec6be;
-    font-size: 48px;
-}
-    
-
-/* taco recipe css*/
-
-
-.menu img {
+    margin:5px;
+    background-color:#333;
+    color:#ff5722;
+  }
+  .title.alfredo {
+    font-family:'Pacifico',cursive;
+    /* make title noodle like */
+      color:#cec6be;
+    font-size:48px;
+  }
+  /* taco recipe css*/
+  
+  
+  .menu img {
     /* targets img in .menu only */
-    max-width: 40%; 
-    height: auto;
-}
-
-/* targets img in each recipe page */
-img{ max-width: 50%; 
-    height: auto;}
-
-.menu {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-around;
-    align-items: center; 
-    padding: 20px;
-    border: 2px solid black;
-}
-
-/* Basic Page Setup */
-body {
-    font-family: sans-serif;
-    background-color: #fff3e0; 
-    color: #333;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-/* Recipe Container */
-#recipePage {
-    background: rgb(255, 255, 255);
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Slight shadow */
-}
-
-/* Headings */
-h1 {
-    color: #d84315; 
-    font-size: 24px;
-}
-
-h2 {
-    color: #ff5722;
-    border-bottom: 2px solid #ff5722;
-    padding-bottom: 5px;
-}
-
-/* Lists */
-.ingredients ul {
-    list-style: none;
-    padding: 0;
-}
-
-.ingredients ul li {
-    background: #ffcc80; 
-    margin: 5px;
-    padding: 8px;
-    border-radius: 5px;
-}
-
-/* Instructions */
-ol {
-    text-align: left;
-    max-width: 500px;
-    margin: auto;
-    background: #e3f2fd; 
-    padding: 15px;
-    border-radius: 5px;
-}
-
-/* Hover Effect */
-.ingredients ul li:hover {
-    background: #ffa726; 
-    color: white;
-    transition: 0.3s;
-}
-
-img{ max-width: 50%; 
-    height: auto;}
+      max-width:40%;
+    height:auto;
+  }
+  /* targets img in each recipe page */
+  img {
+    max-width:50%;
+    height:auto;
+  }
+  .menu {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    padding:20px;
+    border:2px solid black;
+  }
+  /* Basic Page Setup */
+  body {
+    font-family:sans-serif;
+    background-color:#fff3e0;
+    color:#333;
+    margin:0;
+    padding:0;
+    text-align:center;
+  }
+  /* Recipe Container */
+  #recipePage {
+    background:rgb(255,255,255);
+    max-width:600px;
+    margin:20px auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:3px 3px 10px rgba(0,0,0,0.1);
+    /* Slight shadow */
+  }
+  /* Headings */
+  h1 {
+    color:#d84315;
+    font-size:24px;
+  }
+  h2 {
+    color:#ff5722;
+    border-bottom:2px solid #ff5722;
+    padding-bottom:5px;
+  }
+  /* Lists */
+  .ingredients ul {
+    list-style:none;
+    padding:0;
+  }
+  .ingredients ul li {
+    background:#ffcc80;
+    margin:5px;
+    padding:8px;
+    border-radius:5px;
+  }
+  /* Instructions */
+  ol li {
+    background:#e3f2fd;
+    /* Light blue background */
+      margin:5px;
+    padding:8px;
+    border-radius:5px;
+  }
+  /* Hover Effect */
+  .ingredients ul li:hover {
+    background:#ffa726;
+    color:white;
+    transition:0.3s;
+  }
+  img {
+    max-width:50%;
+    height:auto;
+  }
+  ol li:hover {
+    background:#bbdefb;
+    /* Slightly darker blue */
+          transform:translateX(5px);
+    /* Moves text slightly to the right */
+  }
+  
