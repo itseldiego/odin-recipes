@@ -104,4 +104,26 @@
           transform:translateX(5px);
     /* Moves text slightly to the right */
   }
+
+  .takeout-recipe {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    border: 2px solid #ff6347;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.takeout-recipe h2 {
+    color: #ff6347;
+}
+.takeout-recipe ul, .takeout-recipe ol {
+    text-align: left;
+    margin: 10px auto;
+    max-width: 400px;
+}
+.takeout-recipe h3 {
+    color: #2e8b57;
+}
   
