@@ -50,7 +50,8 @@
     text-align:center;
   }
   /* Recipe Container */
-  #recipePage {
+  #recipePage,
+  .homepage {
     background:rgb(255,255,255);
     max-width:600px;
     margin:20px auto;
